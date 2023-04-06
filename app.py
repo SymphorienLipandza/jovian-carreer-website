@@ -27,8 +27,6 @@ def show_job(id):
     return "Not Found", 404
   return render_template('jobpage.html', job=job)
   
-app.add_url_rule('/favicon.ico',
-                 redirect_to=url_for('static', filename='favicon.ico'))
 
 @app.route('/job/<id>/applay', methods=['post'])
 def applay_to_job(id):
