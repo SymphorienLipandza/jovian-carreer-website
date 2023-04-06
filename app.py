@@ -1,5 +1,5 @@
 #Importing library 
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, url_for
 from database import load_jobs_from_db, load_job_from_db, add_application_to_db
 
 
