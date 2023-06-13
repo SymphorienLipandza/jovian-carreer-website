@@ -1,9 +1,12 @@
 #Importing library 
 from flask import Flask, render_template, jsonify, request
+from flask_restful import Api, Resource
+import yaml
 from database import load_jobs_from_db, load_job_from_db, add_application_to_db
 
 
 app = Flask(__name__)
+api = Api(app)
 
 @app.route('/')
 def hello_word():
@@ -14,6 +17,14 @@ def hello_word():
 def list_jobs():
   jobs=load_jobs_from_db()
   return jsonify(jobs)
+  
+class JobSpec(Resource):
+    def get(self):
+        with open('jobs_api_spec.yaml', 'r') as file:
+            spec = yaml.safe_load(file)
+        return spec
+
+api.add_resource(JobSpec, '/api/jobies.yaml')
 
 @app.route('/api/job/<id>')
 def show_job_json(id):

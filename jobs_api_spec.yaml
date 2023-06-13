@@ -1,0 +1,43 @@
+openapi: 3.0.0
+info:
+  title: Job API
+  version: 1.0.0
+  description: API for retrieving job data
+
+paths:
+  /api/jobies.json:
+    get:
+      summary: Get job data
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobResponse'
+
+components:
+  schemas:
+    JobResponse:
+      type: object
+      properties:
+        jobs:
+          type: array
+          items:
+            $ref: '#/components/schemas/Job'
+    Job:
+      type: object
+      properties:
+        job_id:
+          type: integer
+        created_at:
+          type: string
+          format: date-time
+        salary:
+          type: number
+        currency:
+          type: string
+        location:
+          type: string
+        title:
+          type: string

@@ -1,0 +1,57 @@
+[
+  {
+    "created_at": "Thu, 16 Mar 2023 05:49:33 GMT",
+    "currency": "Dt.",
+    "id": 1,
+    "location": "Tunis, Tunisia",
+    "requirements": "2+ years of experience as a data analyst\nHigh proficiency in data extraction, manipulation, and analysis in SQL\nAbility to find correlations across various marketing channels and disparate data sets\nStrong understanding of relational database principles\nSkilled at identifying anomalies and patterns in business data\nSolid understanding of mathematical and statistical concepts\nExcellent attention to detail\nExperience in other programming languages for data manipulation such as Python is a plus",
+    "responsabilities": "Analyze the data flowing through the existing database and other workflow systems\nStructure and redesign the data that flows with the aim of maintaining a single source of truth for all master data and consistent reporting\nAcquire, ingest, and process data from multiple sources and systems into a data warehouse\nCollaborate with marketing teams to map data fields to hypotheses and curate, wrangle, and prepare data for use in reporting",
+    "salary": 1000,
+    "title": "Data Analyst",
+    "updated_at": "Thu, 16 Mar 2023 05:49:28 GMT"
+  },
+  {
+    "created_at": "Thu, 16 Mar 2023 05:49:33 GMT",
+    "currency": "Dt.",
+    "id": 2,
+    "location": "Tunis, Tunisia",
+    "requirements": "Data Scientist with a degree in business analytics, mathematics, statistics, computer science, or a related field and 0-2 years of experience with the following:\nProducing data-driven insights Data Visualization experience, preferably via BI tools such as Tableau\nProject management including working collaboratively across multiple teams\nSummarizing insights and presenting research findings, often in the form of a compelling story\nCoding in Python\nCoding in SQL and/or Spark\nAbility to communicate complex concepts to both technical and non-technical audiences",
+    "responsabilities": "Learn and become an expert in the company\u2019s Television Panel, with a focus on analyzing impacts to methodology and building, maintaining, and evolving dashboards to meet the ever changing landscape of media consumers\nResponsible for research and analytics work to ensure our products and methodologies are working as expected in addition to exploring enhancements\nUtilize tools such as Python, R, Tableau, and Spark to run analyses and create visualizations Analyze data, summarize results, and present research findings to audiences of varying levels of experience\nAutomate processes for recurring analyses, focusing on efficiency\nProactively identify data issues and trace the end-to-end process to determine the root cause\nIdentify gaps in current methodology and/or functionality and work with cross-functional teams to recommend and implement necessary fixes or future enhancements\nCollaborating with methodology teams to drive end to end insights and own feedback circles for continuous improvement\nCreate clear documentation/presentation that explains ongoing trends in our Television panel\nAddress client and stakeholder questions in a timely manner",
+    "salary": 1100,
+    "title": "Data Scientist",
+    "updated_at": "Thu, 16 Mar 2023 05:49:28 GMT"
+  },
+  {
+    "created_at": "Thu, 16 Mar 2023 05:49:33 GMT",
+    "currency": null,
+    "id": 3,
+    "location": "Remote",
+    "requirements": "Bachelor\u2019s degree in Computer Science, Computer Engineering or Information Technology or equivalent experience\nRelevant industry certifications such on Microsoft Azure or Amazon Web Services (AWS), AWS Certified Solution Architect or Microsoft MCSE: Cloud Platform and Infrastructure\n10 or more years of IT experience\nMinimum of 5 years\u2019 experience supporting cloud solutions",
+    "responsabilities": "Design cloud environments with a focus on Azure and AWS and demonstrate technical cloud architectural knowledge, playing a vital role in the design of production, staging, QA, and development of cloud infrastructures running in 24\u00d77 environments\nImplement and oversee all aspects of the cloud environment including provisioning, scale, monitoring, and security\nDelivery of cloud strategies, aligned with business objectives and with a focus on cloud migrations\nProvide leadership in infrastructure migration methodologies and techniques including mass application movements into the cloud including implementation of Azure or AWS within in global enterprise environments\nNurture cloud computing expertise internally and externally to drive cloud adoption\nAct as key stakeholder for validation of new cloud or SaaS solutions adhere to architecture roadmap\nImplement required systems, solutions, and processes needed to manage cloud cost, monitoring, scalability, and redundancy are accounted for and continuously validated\nEnsure all cloud solutions adhere to security and compliance best practices\nCollaborate with Enterprise Architecture, Data Platform, DevOps, and Integration Teams to ensure cloud adoption follows standard best practices",
+    "salary": null,
+    "title": "Cloud Architect",
+    "updated_at": "Thu, 16 Mar 2023 05:49:28 GMT"
+  },
+  {
+    "created_at": "Thu, 16 Mar 2023 05:49:33 GMT",
+    "currency": "Rs.",
+    "id": 10,
+    "location": "New Dheli, India",
+    "requirements": "8+ years of experience in JEE technology stack. Back End Development capabilities supporting Database, server side development, and CI/CD integration\n5+ years of experience with SpringBoot, Sprint Data, Spring Batch, Spring cloud, and Sprint security\nBachelor\u2019s in computer science, Geography, Geospatial Science, Planning, Environmental Sciences, or relevant field\n2 years focusing on enterprise scale backend architectures\nGIS development experience desired but not required\nAn attitude and commitment to being an active participant of our employee-owned culture is a must",
+    "responsabilities": "Duties include working in a professional environment with a national team of developers, geospatial analysts, engineers, scientists, business analysts, and planners. \nThe ability to effectively lead and participate in remote teams with individuals from a wide variety of backgrounds, both technical and non-technical, is required. \nSuccessful candidates will be able to lead development projects, plan and design solutions, develop database schemas and analysis methods needed to support project goals. \nOur projects include solutions for desktop, web, and mobile",
+    "salary": 110000,
+    "title": "Backend Engeener",
+    "updated_at": "Thu, 16 Mar 2023 05:49:28 GMT"
+  },
+  {
+    "created_at": "Thu, 16 Mar 2023 05:49:33 GMT",
+    "currency": "Usd",
+    "id": 11,
+    "location": "Nashville, Tennessess, USA",
+    "requirements": "At least 2 years of front-end web site development experience using HTML, CSS and JavaScript\nExperience with responsive frameworks, cross-browser and multi-platform\nFamiliarity of version control systems such as Git\nDetail-oriented with a commitment to producing quality work\nExcellent verbal and written communication",
+    "responsabilities": "We are looking for a self-starter that can excel in a hybrid work environment. A successful candidate will have effective communication skills, a focus on meeting client expectations and attention to detail. We are seeking an individual who has a positive attitude and who is looking to be a part of our collaborative team.",
+    "salary": 3000,
+    "title": "Frontend Engeener",
+    "updated_at": "Thu, 16 Mar 2023 05:49:28 GMT"
+  }
+]
