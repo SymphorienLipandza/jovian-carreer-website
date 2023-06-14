@@ -23,6 +23,7 @@ def send_email(to_email, subject, message):
 
     # Connect to the SMTP server and send the email
     with smtplib.SMTP(smtp_server, smtp_port) as server:
+        server.set_debuglevel(1)
         server.starttls()
         server.login(sender_email, sender_password)
         server.send_message(email_message)
