@@ -56,7 +56,7 @@ def applay_to_job(id):
   if job:
     to_email = data['email']
     subject = 'Application Submitted for Job: {}'.format(job['title'])
-    message = 'Dear {},\n\nThank you for applying for the job: {}\n\nWe have received your application and will review it shortly.\n\nBest regards,\nYour Company'.format(data['full_name'], job['title'])
+    message = 'Dear {},\n\nThank you for applying for the job: {}\n\nWe have received your application and will review it shortly.\n\nBest regards,\nEcoLink Ltd'.format(data['full_name'], job['title'])
     send_email(to_email, subject, message)
   
   return render_template('applicationsubmitted.html',application=data, job=job)
